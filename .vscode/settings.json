@@ -1,0 +1,4 @@
+{
+    "zig.zls.enableAutofix": true,
+    "zig.zls.warnStyle": true
+}
