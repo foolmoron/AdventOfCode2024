@@ -1,6 +1,6 @@
 const std = @import("std");
 const aoc1 = @import("aoc1/calc.zig");
-// const aoc2 = @import("aoc2/calc.zig");
+const aoc2 = @import("aoc2/calc.zig");
 // const aoc3 = @import("aoc3/calc.zig");
 // const aoc4 = @import("aoc4/calc.zig");
 // const aoc5 = @import("aoc5/calc.zig");
@@ -36,7 +36,7 @@ pub fn main() !void {
     const n = if (args.len > 1) std.fmt.parseInt(i32, args[1], 10) catch 1 else 1;
     switch (n) {
         1 => try aoc1.calc(alloc),
-        // 2 => try aoc2.calc(alloc),
+        2 => try aoc2.calc(alloc),
         // 3 => try aoc3.calc(alloc),
         // 4 => try aoc4.calc(alloc),
         // 5 => try aoc5.calc(alloc),
