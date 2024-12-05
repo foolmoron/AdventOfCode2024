@@ -2,7 +2,7 @@ const std = @import("std");
 const aoc1 = @import("aoc1/calc.zig");
 const aoc2 = @import("aoc2/calc.zig");
 const aoc3 = @import("aoc3/calc.zig");
-// const aoc4 = @import("aoc4/calc.zig");
+const aoc4 = @import("aoc4/calc.zig");
 // const aoc5 = @import("aoc5/calc.zig");
 // const aoc6 = @import("aoc6/calc.zig");
 // const aoc7 = @import("aoc7/calc.zig");
@@ -33,12 +33,12 @@ pub fn main() !void {
     const args = try std.process.argsAlloc(alloc);
     defer std.process.argsFree(alloc, args);
 
-    const n = if (args.len > 1) std.fmt.parseInt(i32, args[1], 10) catch 1 else 1;
+    const n = if (args.len > 1) std.fmt.parseInt(i32, args[1], 10) catch 1 else 4;
     switch (n) {
         1 => try aoc1.calc(alloc),
         2 => try aoc2.calc(alloc),
         3 => try aoc3.calc(alloc),
-        // 4 => try aoc4.calc(alloc),
+        4 => try aoc4.calc(alloc),
         // 5 => try aoc5.calc(alloc),
         // 6 => try aoc6.calc(alloc),
         // 7 => try aoc7.calc(alloc),
