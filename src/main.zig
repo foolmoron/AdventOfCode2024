@@ -10,7 +10,7 @@ const aoc7 = @import("aoc7/calc.zig");
 const aoc9 = @import("aoc9/calc.zig");
 const aoc10 = @import("aoc10/calc.zig");
 const aoc11 = @import("aoc11/calc.zig");
-// const aoc12 = @import("aoc12/calc.zig");
+const aoc12 = @import("aoc12/calc.zig");
 // const aoc13 = @import("aoc13/calc.zig");
 // const aoc14 = @import("aoc14/calc.zig");
 // const aoc15 = @import("aoc15/calc.zig");
@@ -46,7 +46,7 @@ pub fn main() !void {
         9 => try aoc9.calc(alloc),
         10 => try aoc10.calc(alloc),
         11 => try aoc11.calc(alloc),
-        // 12 => try aoc12.calc(alloc),
+        12 => try aoc12.calc(alloc),
         // 13 => try aoc13.calc(alloc),
         // 14 => try aoc14.calc(alloc),
         // 15 => try aoc15.calc(alloc),
