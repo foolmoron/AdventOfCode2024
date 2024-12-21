@@ -17,7 +17,7 @@ const aoc14 = @import("aoc14/calc.zig");
 const aoc16 = @import("aoc16/calc.zig");
 const aoc17 = @import("aoc17/calc.zig");
 const aoc18 = @import("aoc18/calc.zig");
-// const aoc19 = @import("aoc19/calc.zig");
+const aoc19 = @import("aoc19/calc.zig");
 // const aoc20 = @import("aoc20/calc.zig");
 // const aoc21 = @import("aoc21/calc.zig");
 // const aoc22 = @import("aoc22/calc.zig");
@@ -53,7 +53,7 @@ pub fn main() !void {
         16 => try aoc16.calc(alloc),
         17 => try aoc17.calc(alloc),
         18 => try aoc18.calc(alloc),
-        // 19 => try aoc19.calc(alloc),
+        19 => try aoc19.calc(alloc),
         // 20 => try aoc20.calc(alloc),
         // 21 => try aoc21.calc(alloc),
         // 22 => try aoc22.calc(alloc),
