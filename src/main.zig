@@ -13,7 +13,7 @@ const aoc11 = @import("aoc11/calc.zig");
 const aoc12 = @import("aoc12/calc.zig");
 const aoc13 = @import("aoc13/calc.zig");
 const aoc14 = @import("aoc14/calc.zig");
-// const aoc15 = @import("aoc15/calc.zig");
+const aoc15 = @import("aoc15/calc.zig");
 const aoc16 = @import("aoc16/calc.zig");
 const aoc17 = @import("aoc17/calc.zig");
 const aoc18 = @import("aoc18/calc.zig");
@@ -21,7 +21,7 @@ const aoc19 = @import("aoc19/calc.zig");
 const aoc20 = @import("aoc20/calc.zig");
 const aoc21 = @import("aoc21/calc.zig");
 const aoc22 = @import("aoc22/calc.zig");
-// const aoc23 = @import("aoc23/calc.zig");
+const aoc23 = @import("aoc23/calc.zig");
 // const aoc24 = @import("aoc24/calc.zig");
 // const aoc25 = @import("aoc25/calc.zig");
 
@@ -49,7 +49,7 @@ pub fn main() !void {
         12 => try aoc12.calc(alloc),
         13 => try aoc13.calc(alloc),
         14 => try aoc14.calc(alloc),
-        // 15 => try aoc15.calc(alloc),
+        15 => try aoc15.calc(alloc),
         16 => try aoc16.calc(alloc),
         17 => try aoc17.calc(alloc),
         18 => try aoc18.calc(alloc),
@@ -57,7 +57,7 @@ pub fn main() !void {
         20 => try aoc20.calc(alloc),
         21 => try aoc21.calc(alloc),
         22 => try aoc22.calc(alloc),
-        // 23 => try aoc23.calc(alloc),
+        23 => try aoc23.calc(alloc),
         // 24 => try aoc24.calc(alloc),
         // 25 => try aoc25.calc(alloc),
         else => return error.Unreachable,
