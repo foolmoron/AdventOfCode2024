@@ -22,7 +22,7 @@ const aoc20 = @import("aoc20/calc.zig");
 const aoc21 = @import("aoc21/calc.zig");
 const aoc22 = @import("aoc22/calc.zig");
 const aoc23 = @import("aoc23/calc.zig");
-// const aoc24 = @import("aoc24/calc.zig");
+const aoc24 = @import("aoc24/calc.zig");
 // const aoc25 = @import("aoc25/calc.zig");
 
 pub fn main() !void {
@@ -58,7 +58,7 @@ pub fn main() !void {
         21 => try aoc21.calc(alloc),
         22 => try aoc22.calc(alloc),
         23 => try aoc23.calc(alloc),
-        // 24 => try aoc24.calc(alloc),
+        24 => try aoc24.calc(alloc),
         // 25 => try aoc25.calc(alloc),
         else => return error.Unreachable,
     }
